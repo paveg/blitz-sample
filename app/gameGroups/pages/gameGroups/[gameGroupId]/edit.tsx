@@ -1,9 +1,9 @@
 import { Suspense } from "react"
 import Layout from "app/layouts/Layout"
 import { Link, useRouter, useQuery, useMutation, useParam, BlitzPage } from "blitz"
-import getGameGroup from "app/game-groups/queries/getGameGroup"
-import updateGameGroup from "app/game-groups/mutations/updateGameGroup"
-import GameGroupForm from "app/game-groups/components/GameGroupForm"
+import getGameGroup from "app/gameGroups/queries/getGameGroup"
+import updateGameGroup from "app/gameGroups/mutations/updateGameGroup"
+import GameGroupForm from "app/gameGroups/components/GameGroupForm"
 
 export const EditGameGroup = () => {
   const router = useRouter()

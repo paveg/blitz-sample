@@ -1,8 +1,8 @@
 import { Suspense } from "react"
 import Layout from "app/layouts/Layout"
 import { Link, useRouter, useQuery, useParam, BlitzPage, useMutation } from "blitz"
-import getGameGroup from "app/game-groups/queries/getGameGroup"
-import deleteGameGroup from "app/game-groups/mutations/deleteGameGroup"
+import getGameGroup from "app/gameGroups/queries/getGameGroup"
+import deleteGameGroup from "app/gameGroups/mutations/deleteGameGroup"
 
 export const GameGroup = () => {
   const router = useRouter()
